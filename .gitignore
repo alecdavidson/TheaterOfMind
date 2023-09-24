@@ -1,6 +1,6 @@
 bot_conf.ini
 sounds/clips/*
-sounds/tracks/*
+sounds/tracks/track.mp3
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
