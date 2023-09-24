@@ -5,7 +5,7 @@ server_proc = None
 
 def create_server():
     global server_proc
-    server_proc = subprocess.Popen(["flask", "--app", "server", "run", "--host=0.0.0.0"])
+    server_proc = subprocess.Popen(["python", "-m", "flask", "--app", "server", "run", "--host=0.0.0.0"])
 
 
 if __name__=='__main__':
