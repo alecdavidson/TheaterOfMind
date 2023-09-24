@@ -1,6 +1,9 @@
 bot_conf.ini
+pyvenv.cfg
 sounds/clips/*
 sounds/tracks/track.mp3
+bin\*
+lib64
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
