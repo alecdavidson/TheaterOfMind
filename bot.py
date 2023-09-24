@@ -84,7 +84,7 @@ class Bot(discord.Client):
         base_path = os.path.abspath(os.getcwd())
         looping = self._loop
         if type == "track":
-            looping = True
+            looping = False
             sound_path = f"{base_path}/sounds/tracks/{file}"
         elif type == "clip":
             looping = False
